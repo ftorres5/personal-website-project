@@ -29,3 +29,17 @@ nav {
 .nav-items:active {
     color: #c38e5c;
 }
+
+/* start the about section */
+
+.about-section {
+    display: flex;
+    justify-content: center;
+
+}
+
+.about {
+    padding: 40px;
+    margin-left: 40px;
+    width: 400px;
+}
