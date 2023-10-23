@@ -1,0 +1,45 @@
+
+body {
+    background-color: #F4F3F3;
+    font-family: 'AR One Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+    
+}
+/* This is where the navigation columnbs begin */
+nav {
+    padding: 20px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.nav-logo {
+    text-transform: uppercase;
+}
+.nav-items {
+    color: #884848;
+    text-decoration: none;
+    padding: 2px;
+    padding-top: 18px;
+}
+
+.nav-items:hover {
+    color: #c38e5c;
+}
+
+.nav-items:active {
+    color: #c38e5c;
+}
+
+/* start the about section */
+
+.about-section {
+    display: flex;
+    justify-content: center;
+
+}
+
+.about {
+    padding: 40px;
+    margin-left: 40px;
+    width: 400px;
+}
