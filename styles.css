@@ -103,3 +103,25 @@ header {
     padding-left: 200px;
     padding-right: 200px;
 }
+
+/* Portfolio page styling starts here */
+
+.portfolio-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.portfolio-image {
+    width: 250px;
+    height: 250px;
+}
+.portfolio-column {
+    width: 250px;
+    border-style: solid;
+    border-color: #946A96;
+    margin-bottom: 20px;
+}
+
+.portfolio-button {
+    justify-content: baseline;
+}
