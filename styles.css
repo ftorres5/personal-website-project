@@ -85,3 +85,21 @@ footer {
     padding-right: 200px;
     padding-top: 60px;
 }
+
+/* About Page styling starts here */
+
+header {
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.about-container {
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.about-p {
+    padding-left: 200px;
+    padding-right: 200px;
+}
