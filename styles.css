@@ -3,6 +3,7 @@ body {
     background-color: #F4F3F3;
     font-family: 'AR One Sans', sans-serif;
     font-family: 'Lato', sans-serif;
+
     
 }
 /* This is where the navigation columnbs begin */
@@ -31,10 +32,23 @@ nav {
 }
 
 /* start the about section */
+.title-box {
+    background-image: url("https://i.ibb.co/ZfnWn2p/Vector-1-1.png");
+    height: 88px;
+    background-repeat: no-repeat;
+    background-position: right 20% bottom 10%;
+}
+
+.title {
+    text-transform: uppercase;
+    padding-top: 35px;
+    
+}
 
 .about-section {
     display: flex;
     justify-content: center;
+    margin-top: 200px;
 
 }
 
@@ -42,4 +56,72 @@ nav {
     padding: 40px;
     margin-left: 40px;
     width: 400px;
+}
+
+footer {
+    background-color: #946A96;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 200px;
+    justify-content: space-between;
+}
+
+.footer-left {
+    color: #F8C3DA;
+    padding-left: 200px;
+    padding-top: 60px;
+}
+.footer-logo {
+    padding-top: 60px;
+    width: 50px;
+}
+
+.footer-right {
+    color: #F8C3DA;
+    padding-right: 200px;
+    padding-top: 60px;
+}
+
+/* About Page styling starts here */
+
+header {
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.about-container {
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.about-p {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+/* Portfolio page styling starts here */
+
+.portfolio-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.portfolio-image {
+    width: 250px;
+    height: 250px;
+}
+.portfolio-column {
+    width: 250px;
+    border-style: solid;
+    border-color: #946A96;
+    margin-bottom: 20px;
+}
+
+.portfolio-button {
+    justify-content: baseline;
 }
