@@ -120,3 +120,11 @@ header {
 .portfolio-button {
     justify-content: baseline;
 }
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    align-content: center;
+    z-index: 1;
+}
