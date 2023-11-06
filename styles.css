@@ -47,8 +47,8 @@ nav {
 
 .about-section {
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    margin-top: 200px;
 
 }
 
@@ -66,25 +66,20 @@ footer {
     left: 0;
     right: 0;
     bottom: 0;
-    height: 200px;
+    height: 100px;
     justify-content: space-between;
 }
 
-.footer-left {
+footer {
     color: #F8C3DA;
-    padding-left: 200px;
-    padding-top: 60px;
+    display: flex;
+
 }
 .footer-logo {
-    padding-top: 60px;
+    padding-top: 10px;
     width: 50px;
 }
 
-.footer-right {
-    color: #F8C3DA;
-    padding-right: 200px;
-    padding-top: 60px;
-}
 
 /* About Page styling starts here */
 
